@@ -3,9 +3,9 @@ const RichEmbed = require("discord.js");
 const fs = require('fs')
 const { Client, Util } = require('discord.js');
 const client = new Discord.Client();
-const prefix = "#";
+const prefix = "R";
  
-const devs = ["535590684120580116"]
+const devs = ["584958634543284224"]
  
 const adminprefix = "R";
 client.on('message', message => {
